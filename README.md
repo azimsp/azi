@@ -120,7 +120,7 @@ function movePawn() {
   if (dice !== 6) nextTurn();
 }
 
-// Send opponent pawn home if landed on the same path index
+// Send opponent pawn home if landed on the same path 
 function hitCheck(player, pawnIndex) {
   let pos = player.pawns[pawnIndex];
   players.forEach(pl => {
