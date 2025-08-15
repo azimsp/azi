@@ -136,9 +136,3 @@ function nextTurn() {
   diceDiv.innerText = `Turn: Player ${currentPlayer+1} | Dice: -`;
 }
 
-drawBoard();
-</script>
-
-</body>
-</html>
-
