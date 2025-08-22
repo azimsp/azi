@@ -125,7 +125,7 @@ function hitCheck(player, pawnIndex) {
   let pos = player.pawns[pawnIndex];
   players.forEach(pl => {
     if (pl !== player) {
-      pl.pawns = pl.pawns.map(p => (p === pos ? -1 : p));
+      pl.pawns = pl.pawns.map(p => (p === pos ? -1 : ));
     }
   });
 }
