@@ -142,4 +142,4 @@ drawBoard();
 </body>
 </html>
 
-
+dm;km;sk'aplW'EP[W'[L';Z,C/LMSLAJBFHAS
